@@ -1,0 +1,8 @@
+prefix=/home/suntao/workspace/stbot/apnc/projects/genesis/catkin_ws/install
+
+Name: stbot_apnc
+Description: Description of stbot_apnc
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lstbot_apnc
+Requires: roscpp std_msgs sensor_msgs control_msgs
